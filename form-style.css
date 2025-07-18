@@ -67,10 +67,12 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f7fa;
+  background: url('images/church-background.webp') no-repeat center center fixed;
+  background-size: cover;
   padding: 20px;
-  color: #333;
+  color: white; /* Change from #333 to white for better contrast */
 }
+
 
 /* Shared Layout Containers */
 .form-container,
@@ -229,6 +231,200 @@ small {
   font-size: 12px;
   color: #777;
 }
+
+.footer {
+  background-color: #111827;
+  color: #f9fafb;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid #374151;
+}
+
+.footer a {
+  color: #60a5fa;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.footer-subtext {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #d1d5db;
+}
+
+.footer-copy,
+.footer-credit {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #003e66;
+      color: #fff;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .nav-logo {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .nav-title {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .welcome-container {
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .welcome-logo { 
+  width: 100px;
+  margin-bottom: 1rem;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.welcome-logo:hover {
+  transform: rotateY(180deg);
+}
+
+
+    .welcome-title {
+      font-size: 2rem;
+      color: #003e66;
+    }
+
+    .welcome-title span {
+      font-weight: bold;
+      color: #005ea2;
+    }
+
+    .welcome-text {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      color: #555;
+    }
+
+.mission-section {
+  background-color: #ffffffdd;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.mission-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.mission-list {
+  list-style: none;
+  padding: 0;
+  color: #444;
+}
+
+.mission-list li {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+
+
+
+    .button-group {
+      margin-top: 2rem;
+    }
+
+    .btn-link {
+      display: inline-block;
+      margin: 0 10px;
+      padding: 0.75rem 1.5rem;
+      background-color: #005ea2;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-link:hover {
+      background-color: #004880;
+    }
+
+    .footer-promo {
+      margin-top: 3rem;
+      padding: 2rem;
+      background-color: #f0f4f8;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .footer-promo:hover {
+      background-color: #e0ebf5;
+    }
+
+    .footer-promo p {
+      margin: 5px 0;
+    }
+
+    .footer-promo .brand {
+      font-size: 14px;
+      font-weight: bold;
+      color: #003e66;
+    }
+
+    .footer-promo .description {
+      font-size: 13px;
+      color: #444;
+    }
+
 
 /* Mobile */
 @media (max-width: 600px) {
